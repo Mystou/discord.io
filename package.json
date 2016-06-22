@@ -3,6 +3,7 @@
   "version": "1.12.0",
   "description": "JavaScript interface for Discord.",
   "main": "./lib/index.js",
+  "typings": "./typings/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,7 +25,6 @@
   },
   "homepage": "https://github.com/izy521/discord.io#readme",
   "dependencies": {
-    "needle": "^1.0.0",
     "ws": "^1.1.0",
     "tweetnacl": "^0.14.0"
   },
